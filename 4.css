@@ -1,0 +1,34 @@
+<style>
+  .button{
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .search-result {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 18px;
+  }
+  .b{
+    background-color: rgba(23, 175, 31, 0.411);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+    border-style:none;
+    margin-top: 30px;
+    color:white;
+    transition: padding-top 1s,
+      padding-bottom 1s,
+      padding-left 1s,
+      padding-right 1s;
+  }
+  .b:hover{
+    cursor: pointer;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  </style>
